@@ -1,7 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include "tail.h"
-
  int main (int argc, const char *argv[])
 {
 	if (argc != 2)
