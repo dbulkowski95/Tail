@@ -5,7 +5,7 @@
 {
 	if (argc != 2)
 		return -1;
-	const int argv_one_size = strtol(argv[1], NULL, 10);
-	tail(argv_one_size);
+	const int value_of_argv_one = strtol(argv[1], NULL, 10);
+	tail(value_of_argv_one);
 	return 0;
 }
